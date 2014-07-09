@@ -26,9 +26,9 @@ class pptpd (
   $connections = 100,
   $delegate    = true,
   $localip     = $::ipaddress,
-  $remoteip    = '10.254.1.1-50',
+  $remoteip    = '10.0.0.235-254',
   $noipparam   = false,
-  $listen      = false,
+  $listen      = true,
   $pidfile     = '/var/run/pptpd.pid',
   $speed       = 115200,
   $logwtmp     = true
