@@ -23,7 +23,6 @@ class pptpd (
   $stimeout    = 60,
   $debug       = false,
   $bcrelay     = false,
-  $connections = 100,
   $remoteip    = '10.0.0.235-254',
   $noipparam   = false,
   $listen      = true,
