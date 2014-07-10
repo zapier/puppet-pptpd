@@ -20,17 +20,14 @@
 class pptpd (
   $ensure      = 'present',
   $option      = '/etc/ppp/pptpd-options',
-  $stimeout    = 30,
+  $stimeout    = 60,
   $debug       = false,
   $bcrelay     = false,
   $connections = 100,
-  $delegate    = true,
-  $localip     = $::ipaddress,
   $remoteip    = '10.0.0.235-254',
   $noipparam   = false,
   $listen      = true,
   $pidfile     = '/var/run/pptpd.pid',
-  $speed       = 115200,
   $logwtmp     = true
   ) {
 
